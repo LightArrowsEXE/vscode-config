@@ -1,0 +1,34 @@
+{
+  "[python]": {
+    "editor.defaultFormatter": "charliermarsh.ruff"
+  },
+  "background.enabled": true,
+  "background.editor": {
+    "useFront": false,
+    "style": {
+      "background-position": "right 30px bottom 0.01px",
+      "background-repeat": "no-repeat",
+      "background-size": "540px auto",
+      "filter": "blur(0.75px)",
+      "opacity": 0.05
+    },
+    "images": ["https://i.imgur.com/F0Hof2O.png"]
+  },
+  "editor.formatOnPaste": true,
+  "editor.formatOnSave": true,
+  "editor.formatOnType": true,
+  "editor.rulers": [0, 72, 120, 158],
+  "explorer.confirmDelete": false,
+  "files.associations": {
+    "*.vpy": "python"
+  },
+  "files.insertFinalNewline": true,
+  "files.trimTrailingWhitespace": true,
+  "git.openRepositoryInParentFolders": "always",
+  "python.languageServer": "Pylance",
+  "terminal.integrated.defaultProfile.windows": "Git Bash",
+  "workbench.colorTheme": "Default Dark Modern",
+  "workbench.editorAssociations": {
+    "*.mpls": "hexEditor.hexedit"
+  }
+}
